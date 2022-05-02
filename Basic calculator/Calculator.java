@@ -50,12 +50,12 @@ public class Calculator{
         Scanner input =new Scanner(System.in);
      
         int opcion = 0;
-    //Loop que permite que el usuario realice operaciones aritmeticas, sale del loop cuando el usuario presiona el 8.
+    //Loop que permite que el usuario realice cuantas operaciones aritmeticas desee.
           while(opcion != 8){
-           System.out.println("Entre el numumero de lo que desea hacer \n1.Sumar \n2.Restar\n3.Multiplicar\n4.Dividir\n5.modulo\n6.Exponente\n7.Raiz Cuadrada\n8.Salir");
+           System.out.println("Entre el numero de lo que desea hacer \n1.Sumar \n2.Restar\n3.Multiplicar\n4.Dividir\n5.modulo\n6.Exponente\n7.Raiz Cuadrada\n8.Salir");
            opcion = input.nextInt();
 
-
+         //Condicionales para seleccionar la operacion dependiendo del numero que el usuario entro.
             if(opcion == 1){
               System.out.println("Entre los dos valores que desea sumar."); 
               int a = input.nextInt();
